@@ -126,7 +126,7 @@ w3-col.l4{
 
 
 /* TABLET LANDSCAPE ----- Medium devices (landscape tablets) */
-@media only screen and (min-width : 1020px)
+@media only screen and (min-width : 720px)
 {.desktop {display: block}.mobile {display: none}.tablet {display: none}}
 
 /* LAPTOPS AND LARGER TABLETS ----  Large devices (laptops/desktops) */
