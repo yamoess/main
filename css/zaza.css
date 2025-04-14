@@ -2,9 +2,6 @@
 .dashblue {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 1px dashed blue;}
 .dashgray {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 1px dashed gray;}
 .dashred {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 1px dashed red;}
-.solred {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 2px solid red;}
-.solblu {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 2px solid blue;}
-
 .encloss{display:block;color:#FFB164;padding: 1px 1px 1px 1px;border:1px cyan solid;}
 .nodecor{text-decoration:none}
 
@@ -98,35 +95,31 @@ w3-col.l4{
 	.w3-quarter{width:100%!important}
 	.leftside{width:63.5vw;float:left;}
 	.rightside{width:33vw;float:right;}
-
 	.txtfont{font-size: 0.9em;}
 	.titlfont{font-size: 1.05em;}
 	.titlfont1{font-size: 1.15em;}
 }
-	
-  
 }
-@media (min-width: 0px) and (max-width: 767px) {	
-	.imgheight{height: 71px;vertical-align: middle; background-color: white; max-width: 100%; width: auto; float: none;}
-	.imgcol{width:100%;height:30px;}
-	.toppy{margin-top:7.7vh;}
 
-	.w3-threequarter{width:100%!important} 
-	.w3-quarter{width:100%!important}  
-}
 
 /* RESPONSIVE SCREENS......*/
 /* MOBILE PHONES PORTRAIT----- mobile phones portrait */
-@media only screen and (max-width : 719px) 
-{.desktop {display: none}.mobile {display: block}}
+@media only screen and (max-width : 709px) {
+.mobile {display: block}
+.tablet {display: block}
+.desktop {display: none}}
 
-/* larger than mobiles ----  Large devices (laptops/desktops) */
-@media only screen and (min-width : 719px) 
-{.desktop {display: blok}.mobile {display: none}}
 
-*  @media only screen and (min-width : 991px) and (max-width : 1099px)  */
-/*{.desktop {display: none}.laptop {display: block}.mobilel {display: none}.mobilep {display: none}.tablet {display: none}} */
-	
-@media only screen and (max-width : 641){
-	.smallscreen{display:none;}
-}
+/* medium display devices*/
+@media only screen and (min-width :710px) and (max-width: 1010px){
+.mobile {display: none}
+.tablet {display: block}
+.desktop {display: none}}
+
+/* larger devices*/
+@media only screen and (min-width :1011px){
+.mobile {display: none}
+.tablet {display: none}
+.desktop {display: block}}
+
+
