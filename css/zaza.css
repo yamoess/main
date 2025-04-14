@@ -118,31 +118,14 @@ w3-col.l4{
 /* RESPONSIVE SCREENS......*/
 /* MOBILE PHONES PORTRAIT----- mobile phones portrait */
 @media only screen and (max-width : 719px) 
-{.desktop {display: none}.mobile {display: block}.tablet {display: none}}
+{.desktop {display: none}.mobile {display: block}}
 
-/* TABLET PORTAIT OR MOBILES LANDSCAPE ----- Small devices (portrait tablets and large phones */
-@media only screen and (min-width : 720px) and (max-width : 1019px) 
-{.desktop {display: none}.mobile {display: none}.tablet {display: block}}
+/* larger than mobiles ----  Large devices (laptops/desktops) */
+@media only screen and (min-width : 719px) 
+{.desktop {display: blok}.mobile {display: none}}
 
-
-/* TABLET LANDSCAPE ----- Medium devices (landscape tablets) */
-@media only screen and (min-width : 720px)
-{.desktop {display: block}.mobile {display: none}.tablet {display: none}}
-
-/* LAPTOPS AND LARGER TABLETS ----  Large devices (laptops/desktops) */
-/*  @media only screen and (min-width : 991px) and (max-width : 1099px)  */
+*  @media only screen and (min-width : 991px) and (max-width : 1099px)  */
 /*{.desktop {display: none}.laptop {display: block}.mobilel {display: none}.mobilep {display: none}.tablet {display: none}} */
-
-
-	.xmobilep{position: relative;width: 450px;margin: 0 0 0 0;}
-	.xmobilel{position: relative;width: 640px;margin: 0 0 0 0;}
-	.xtabletp{position: relative;width: 768px;margin: 0 0 0 0;}
-	.xtablet{position: relative;width: 990px;margin: 0 0 0 0;}
-	.xlaptop{position: relative;width:1440px;margin: 0 0 0 0;}
-	.xdesktop{position: relative;width:auto;margin: 0 0 0 0}
-
-.smallscreen{display:block;}
-
 	
 @media only screen and (max-width : 641){
 	.smallscreen{display:none;}
