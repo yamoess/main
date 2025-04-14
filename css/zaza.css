@@ -2,6 +2,9 @@
 .dashblue {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 1px dashed blue;}
 .dashgray {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 1px dashed gray;}
 .dashred {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 1px dashed red;}
+.solred {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 2px solid red;}
+.solblu {width: 100%; float:left;  padding:0;background:transparent;border-bottom: 2px solid blue;}
+
 .encloss{display:block;color:#FFB164;padding: 1px 1px 1px 1px;border:1px cyan solid;}
 .nodecor{text-decoration:none}
 
