@@ -75,18 +75,17 @@ w3-col.l4{
 @media (min-width: 768px) and (max-width: 1024px) {.titlfontx{font-size: 2.845vw;}}
 
 
-@media only screen and (max-width : 719px) 
-{	.leftside{width:100%}
+@media only screen and (max-width : 767px) {
+	.leftside{width:100%}
 	.rightside{width:100%}
 	.txtfont{font-size: 0.9em;}
 	.titlfont{font-size: 1.25em;}
 	.titlfont1{font-size: 1.35em;}
+	.mobile {display: block}
+	.tablet {display: none}
+	.desktop {display: none}
 }
 
-@media (min-width: 1025px) {
-	.imgheight{height: 51px;vertical-align: middle; background-color: white; max-width: 100%; width: auto; float: none;}
-	
-}
 @media (min-width: 768px) and (max-width: 1024px) {
 	.imgheight{height: 71px;vertical-align: middle; background-color: white; max-width: 100%; width: auto; float: none;}
 	.imgcol{width:100%;height:30px;}
@@ -98,28 +97,24 @@ w3-col.l4{
 	.txtfont{font-size: 0.9em;}
 	.titlfont{font-size: 1.05em;}
 	.titlfont1{font-size: 1.15em;}
+	.mobile {display: none}
+	.tablet {display: block}
+	.desktop {display: none}
 }
+@media (min-width: 1025px) {
+	.imgheight{height: 51px;vertical-align: middle; background-color: white; max-width: 100%; width: auto; float: none;}
+	.mobile {display: none}
+	.tablet {display: none}
+	.desktop {display: block}
+	
 }
+
 
 
 /* RESPONSIVE SCREENS......*/
 /* MOBILE PHONES PORTRAIT----- mobile phones portrait */
 @media only screen and (max-width : 709px) {
-.mobile {display: block}
-.tablet {display: block}
-.desktop {display: none}}
-
-
-/* medium display devices*/
-@media only screen and (min-width :710px) and (max-width: 1010px){
-.mobile {display: none}
-.tablet {display: block}
-.desktop {display: none}}
-
 /* larger devices*/
 @media only screen and (min-width :1011px){
-.mobile {display: none}
-.tablet {display: none}
-.desktop {display: block}}
 
 
