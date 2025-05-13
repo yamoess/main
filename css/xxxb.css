@@ -118,6 +118,10 @@ progress{vertical-align:baseline}
 .display-11{font-size:calc(0.685rem + 1.0vw);font-weight:400;line-height:1.45}
 @media (min-width: 1200px){.display-11{font-size:2.75vw}}
 .display-12{font-size:calc(0.685rem + 1.5vw);font-weight:400;line-height:1.45}
+
+
+@media (max-width: 701px){.display-11{font-size:3.75vw}}
+
 @media (min-width: 1200px){.display-12{font-size:1.35rem}}
 .display-13{font-size:calc(0.725rem + 0.9vw);font-weight:400;line-height:1.45}
 @media (min-width: 1200px){.display-13{font-size:1.15rem}}
@@ -1631,6 +1635,8 @@ textarea.form-control-lg{min-height:calc(1.5em + 1rem + 2px)}
 .bg-white{background-color:#fff !important}
 .bg-red,.bg-hover-red:hover{color:#fff!important;background-color:#f44336!important}
 .bg-yamo{background-color:#333ebd!important;color:white!important;}
+.bg-yamo1{background-color:#8a0000!important;color:white!important;}
+
 
 
 .bg-transparent{background-color:rgba(0,0,0,0) !important}
