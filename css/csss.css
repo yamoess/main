@@ -13,8 +13,6 @@
 
 
 .h-az{height:8.35vh !important}
-.t-az{margin-top:-3.5vh !important}
-
 .col60{width:90%;}
 .col60{width:60%;}
 .col40{width:40%;}
@@ -67,6 +65,7 @@
 	.gtwin:{width:100%}
 	.hidbord{border:1px gray solid;}
 	.h-az{height:5.35vh!important}
+	.t-az{margin-top:-2.7vh !important}
 	.logofont {font-size:3.9vw;font-weight:800;}}
 
 /* tablet portrait */
@@ -84,6 +83,7 @@
 	.h-az{height:5.35vh!important;}
 	.col60{width:100%;}
 	.col40{width:100%;}
+	.t-az{margin-top:-2.7vh !important}
 	.logofont {font-size:4.3vw;}}
 
 /* tablet landscape */
@@ -99,8 +99,8 @@
 	.hidbord{border:none;}
 	.h-az{height:7.05vh!important}
 	.gtwin:{width:33.25%;float:right}
+	.t-az{margin-top:-2.7vh !important}
 	.logofont {font-size:3.3vw;}}
-
 
 /* dlaptops */
 @media (min-width: 1024px) and (max-width: 1399px){
@@ -115,6 +115,7 @@
 	.h-az{height:7.05vh!important}
 	.lftwin:{width:64.25%;float:left}
 	.gtwin:{width:34.25%;float:right}
+	.t-az{margin-top:-2.7vh !important}
 	.logofont {font-size:3.3vw;}}
 
 
@@ -131,6 +132,7 @@
 	.h-az{height:7.05vh!important}
 	.lftwin:{width:64.25%;float:left}
 	.gtwin:{width:34.25%;float:right}
+	.t-az{margin-top:-2.7vh !important}
 	.logofont {font-size:3.3vw;}}
 	
 	
