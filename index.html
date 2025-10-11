@@ -40,11 +40,39 @@
 <style>
 
 .headox {
+  width:auto;
+  height:auto;
+  background-color: lightblue;
+  animation: fadeOut 10s ease-out forwards; /* 30 seconds duration, ease-out timing, stays at end state */
+  animation-delay: 15s;
+  animation-fill-mode: forwards;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes fadeOut {
+0% {
+opacity: 1;
+}
+
+50% {
+opacity: 0;
+}
+
+100% {
+height: 0px;
+overflow: hidden;
+}
+}
+
+
+
+.qheadox {
 width:auto;
 height:auto;
 animation: hidex 6s;
 animation-fill-mode: forwards;
-animation-delay: 16s;
+animation-delay: 60s;
 margin: 0;
 padding: 0;
 z-index:11;
@@ -111,9 +139,10 @@ div {
 	<!-- mobile display starts........................... ! -->
 		<div class="mobile" style="background-color:transparent">
 		<div class="" style="width:0%;height:0%">
-			  <img alt="" src="">
 				<div class="headox" style="width:100%;height:100%;margin-top:27px;position:absolute;">
-				  <img alt="" src="imgs/startt02.gif" style="width:100%">
+				<a href="index1.html">
+				 <img alt="" src="imgs/startt03.gif" style="width:100%">
+				</a> 
 		  		</div>
 		</div>
 		</div>
@@ -121,9 +150,10 @@ div {
 	<!-- tablet display starts........................... ! -->
 		<div class="tablet" style="background-color:transparent">
 		<div class="" style="width:0%;height:0%">
-			  <img alt="" src="">
 				<div class="headox" style="width:80%;height:80%;margin-top:69px;position:absolute;margin-left:3%;">
-					  <img alt="" src="imgs/startt01.gif" style="width:100%">
+				<a href="index1.html">
+				 <img alt="" src="imgs/startt01.gif" style="width:100%">
+				</a> 
 				</div>
 		</div>
 		</div>
@@ -132,9 +162,10 @@ div {
 		<div class="desktop" style="background-color:transparent;margin-top:5px">
 
 		<div class="" style="width:0%;height:0%">
-			  <img alt="" src="">
-				<div class="headox" style="width:80%;height:80%;margin-top:69px;position:absolute;margin-left:3%;">
-				  <img alt="" src="imgs/startt01.gif" style="width:100%">
+				<div class="headox" style="width:70%;height:80%;margin-top:50px;position:absolute;margin-left:3%;">
+				<a href="index1.html">
+				 <img alt="" src="imgs/startt01.gif" style="width:100%">
+				</a> 
   				</div>
 		</div>
 		</div>
