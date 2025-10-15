@@ -10,6 +10,7 @@
 .spacer02{height:0.75vh;}
 .spacer03{height:1.5vh;}
 .bluu{color:#1f49af;}
+
 /* Alignment */
 .lefty{text-align:left!important}
 .righty{text-align:right}
@@ -35,6 +36,7 @@ w3-col.l4{
   top: 6.15%;
   float:left;
 }
+
 
 
 /* FLUID DISPLAYS */
@@ -70,43 +72,82 @@ w3-col.l4{
   display: table;
 }
 
-.titlfontx{font-size: 1.225vw;}
-@media only screen and (max-width : 767px){.titlfontx{font-size: 4.35vw;}}
-@media (min-width: 768px) and (max-width: 1024px) {.titlfontx{font-size: 2.845vw;}}
+.hideall{
+	display:none;
+}
 
+.showall{
+	display:block;
+}
 
-@media only screen and (max-width : 767px) {
+    /* Styles for mobile devices (up to 767px) */
+    @media (max-width: 767px) {
+	.mobile {display: block;}
+	.tablet {display: none;}
+	.desktop {display: none;}
+    }
+
+    /* Styles for tablets (768px to 1023px) */
+    @media (min-width: 768px) and (max-width: 1023px) {
+	.mobile {display: none;}
+	.tablet {display: block;}
+	.desktop {display: none;}
+    }
+
+    /* Styles for desktops (1024px and above) */
+    @media (min-width: 1024px) {
+	.mobile {display: none;}
+	.tablet {display: none;}
+	.desktop {display: block;}
+    }
+    
+
+@media only screen and (max-width : 767px){
 	.leftside{width:100%}
 	.rightside{width:100%}
 	.txtfont{font-size: 0.9em;}
 	.titlfont{font-size: 1.25em;}
 	.titlfont1{font-size: 1.35em;}
-	.mobile {display: block}
-	.tablet {display: none}
-	.desktop {display: none}
+	.titlfontx{font-size: 4.35vw;}
+	.titlheight{height:11.7vw;}
+	.titlcolor{background-color:#1B2C51 !important}
+	.toppy{margin-top:3.7vw;}
+	.navbar-light .navbar-toggler{color:rgba(0,0,0,0.55);border-color:rgba(0,0,0,0.1);background-color:#1B2C51}
+	.navbar-light .navbar-toggler-icon{background-image:url('../imgs/menubariconwhite.png')}
+		
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and  (min-width: 768px) and (max-width: 1023px) {
 	.imgheight{height: 71px;vertical-align: middle; background-color: white; max-width: 100%; width: auto; float: none;}
 	.imgcol{width:100%;height:30px;}
-	.toppy{margin-top:7.7vh;}
-	.w3-threequarter{width:100%!important}  
-	.w3-quarter{width:100%!important}
+	.toppy{margin-top:5.vw;}
+	.w3-threequarter{width:100%!important;}  
+	.w3-quarter{width:100%!important;}
 	.leftside{width:63.5vw;float:left;}
 	.rightside{width:33vw;float:right;}
 	.txtfont{font-size: 0.9em;}
 	.titlfont{font-size: 1.05em;}
 	.titlfont1{font-size: 1.15em;}
-	.mobile {display: none}
-	.tablet {display: block}
-	.desktop {display: none}
+	.titlfontx{font-size: 2.845vw;}
+	.titlheight{height:17.7vw;}
+	.titlcolor{background-color:#fff !important;}
+	.navbar-light .navbar-toggler{color:rgba(0,0,0,0.55);border-color:rgba(0,0,0,0.1);background-color:#1B2C51;margin-top:1.2vw}
+	/*  
+	.navbar-light .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0,0,0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}		
+	*/
+	.navbar-light .navbar-toggler-icon{background-image:url('../imgs/menubariconwhite.png')}	
 }
-@media (min-width: 1025px) {
+@media only screen and  (min-width: 1024px) {
 	.imgheight{height: 51px;vertical-align: middle; background-color: white; max-width: 100%; width: auto; float: none;}
-	.mobile {display: none}
-	.tablet {display: none}
-	.desktop {display: block}
-	
+	.titlfontx{font-size: 1.225vw;}	
+	.titlheight{height:4.7vw;}
+	.toppy{margin-top:5.vw;}
+	.titlcolor{background-color:#fff !important}
+	.navbar-light .navbar-toggler{color:rgba(0,0,0,0.55);border-color:rgba(0,0,0,0.1);background-color:#1B2C51;margin-top:1.5vw}	
+	/*  
+	.navbar-light .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0,0,0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}		
+	*/
+	.navbar-light .navbar-toggler-icon{background-image:url('../imgs/menubariconwhite.png')}	
 }
 
 
